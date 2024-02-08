@@ -19,6 +19,7 @@ async function getQuote() {
     btnEl.innerText = "Get a quote";
     btnEl.disabled = false;
     console.log(data);
+    
   } catch (error) {
     console.log(error);
     quoteEl.innerText = "An error happened, try again later";
